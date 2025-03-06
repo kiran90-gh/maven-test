@@ -5,7 +5,8 @@ pipeline {
   {
    agent any
     steps {
-	 withSonarQubeEnv('sonarq')
+	 withSonarQubeEnv('sonarproject
+')
 	 {
 	  sh "mvn clean package sonar:sonar -Dsonar.projectKey=sonarproject
  -Dsonar.projectName='sonarproject
