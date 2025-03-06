@@ -7,9 +7,7 @@ pipeline {
     steps {
 	 withSonarQubeEnv('sonarq')
 	 {
-	  sh "mvn clean package sonar:sonar -Dsonar.projectKey=sonarproject
- -Dsonar.projectName='sonarproject
-'"
+	  sh "mvn clean package sonar:sonar -Dsonar.projectKey=sonarproject -Dsonar.projectName='sonarproject'"
 	 }
 	}
   }
