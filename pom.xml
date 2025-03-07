@@ -77,18 +77,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <distributionManagement>
-<repository>
-<id>repoR</id>
-<name>repoR</name>
-<url>http://13.201.74.18:8081/repository/maven-releases/</url>
-</repository>
-<snapshotRepository>
-<id>repo</id>
-<name>repo</name>
-<url>http://13.201.74.18:8081/repository/maven-snapshots/</url>
-</snapshotRepository>
-</distributionManagement>
   </build>
 <distributionManagement>
 <repository>
